@@ -1,0 +1,156 @@
+
+
+body {
+    /* Typography Declarations */
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: "Open Sans", "helvetica neue", sans-serif;
+}
+
+
+
+h1 {
+ color: gray;
+
+  }
+
+
+
+.masthead-heading {
+	color:white;
+}
+
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+
+.masthead {
+  padding: 3em 0;
+  background-image:
+  url('http://i1214.photobucket.com/albums/cc497/blat1000/Autumn.jpg');
+  background-size: cover;
+  background-position: center ;
+  border-top: solid 1em #FFCF33;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.masthead-intro {
+   margin-bottom: -0.2em;
+   font-family: "Gentium Book Basic", Georgia, serif;
+   font-size: 2em;
+   color:white;
+}
+
+
+.masthead-heading {
+ margin-top: -0.1em;
+ font-family: "Open Sans", "Helvetica Neue", sans-serif;
+ font-weight: bold;
+ font-size: 6em;
+ letter-spacing: -0.02em;
+ text-transform: uppercase;
+}
+
+
+.masthead,
+.content-footer,
+.introduction-section,
+.location-section,
+.question-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+
+.social > li {
+  display:inline-block;
+}
+
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight:bold;
+/* Layout */
+    margin: 2em 0 1em 0;
+}
+
+
+h2{
+  color:gray;
+}
+
+
+section > h1 {
+    margin-top: 2em;
+}
+
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #FF0000;
+  background-image: url(' https://unsplash.imgix.net/reserve/D9xlw7UxTBqQw5sLf8cJ_reef%20insp-72.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=919cee97ee59ed74a48fa22f1a63ff01');
+  background-color: #E80201;
+  background-size: 100%;
+  background-position: center;
+  height:180px;
+  
+}
+
+
+a {
+  color: red;
+}
+
+
+.social li a {
+  display:inline-block;
+  padding: 1em;
+}
+
+
+.content-footer > p {
+ color: black;
+ margin-top:2em;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+
+    .masthead-intro {
+        font-size: 1em;
+    }
+
+.masthead-heading {
+        font-size: 2em;
+    }
+
+}
+
+}
+
+
